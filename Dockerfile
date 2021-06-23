@@ -1,5 +1,5 @@
-FROM node:10-alpine3.11
-MAINTAINER William Chong <williamchong@lakoo.com>
+FROM node:14-alpine3.12
+MAINTAINER David Thomson <davethomson050@gmail.com>
 
 RUN mkdir -p /opt
 WORKDIR /opt
